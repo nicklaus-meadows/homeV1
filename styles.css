@@ -1,0 +1,63 @@
+.logo {
+    filter: drop-shadow(0px 0px 1px white);
+}
+
+html,
+body {
+    font-family: 'Lato', sans-serif !important;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 85%;
+        padding: 0;
+    }
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: background-color 0.5s ease, color 1s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: gray !important;
+    border-radius: 5px;
+}
+
+#PAplant {
+    border-radius: 60px;
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom-bg-secondary {
+    background-color: #ededed;
+}
+
+.card {
+    background-color: #ededed !important;
+}
+
+h1,
+h2,
+p {
+    color: slategray;
+}
+
+.btn {
+    opacity: 0.8 !important;
+}
