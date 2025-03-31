@@ -73,17 +73,20 @@ p {
     margin-top: 20px;
 
 
+
 }
 
 .footer>div>h3 {
     text-decoration: underline;
+    ;
 }
 
 
 .footer>div {
     flex: 1;
     min-width: 250px;
-    margin: 15px;
+    margin: 55px;
+
 }
 
 @media (max-width: 768px) {
